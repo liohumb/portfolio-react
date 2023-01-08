@@ -5,8 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9abe235c-f22e-4fde-a692-1d693205cf75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/after-effects.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/angular.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/api-platform.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/apple.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/blender.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/composer.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/css.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/data-grip.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/debian.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/discord.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/figma.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/git.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/github.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/google-chrome.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/gsap.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/heroku.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/html.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/illustrator.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/intellij.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/iterm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/javascript.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/jetbrains.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/logic-pro.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/mailchimp.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/mailjet.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/mamp.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/mongodb.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/mysql.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/next.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/node-mailer.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/node.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/notion.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/npm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/parcel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/paypal.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/photoshop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/php.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/phpstorm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/postman.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/premiere-pro.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/react-native.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/react.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/sass.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/sendgrid.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/simulator.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/slack.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/strapi.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/stripe.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/symfony.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/teams.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/terminal.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/three.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/typescript.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/vercel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/vite.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/vue.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/webpack.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/webstorm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/brands/xcode.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/falcon/SKFalconRLight-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/falcon/SKFalconRLight-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/satoshi/Satoshi-Variable.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/satoshi/Satoshi-Variable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/satoshi/Satoshi-Variable.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/satoshi/Satoshi-Variable.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/brands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/Variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/Variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +95,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lio/Sites/portfolio/assets/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/lio/Sites/portfolio/src/assets/brands",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;SCSS&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "SCSS"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/brands" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/public" />
@@ -83,7 +152,8 @@
       <workItem from="1671715146040" duration="1803000" />
       <workItem from="1671716964034" duration="7643000" />
       <workItem from="1673083211824" duration="56000" />
-      <workItem from="1673083571334" duration="1887000" />
+      <workItem from="1673083571334" duration="6962000" />
+      <workItem from="1673195868025" duration="3543000" />
     </task>
     <servers />
   </component>
