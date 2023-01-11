@@ -1,0 +1,205 @@
+@use "src/assets/styles/Variables" as v;
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+
+  &__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    user-select: none;
+    padding: 0 10%;
+  }
+
+  &__subtitle {
+    width: 100%;
+    position: relative;
+    font-size: 7rem;
+    color: v.$first-color-light;
+    line-height: 5rem;
+
+    &-h {
+      position: absolute;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .4s;
+    }
+
+    &-e {
+      position: absolute;
+      left: 3.5rem;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .2s;
+    }
+
+    &-l {
+      position: absolute;
+      left: 7rem;
+      animation: moveLetter .2s linear infinite;
+    }
+
+    &-ll {
+      position: absolute;
+      left: 8.5rem;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .4s;
+    }
+
+    &-o {
+      position: absolute;
+      left: 10rem;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .2s;
+    }
+
+    &-virgule {
+      position: absolute;
+      left: 13.5rem;
+      animation: moveLetter .2s linear infinite;
+    }
+
+    &-emoji {
+      position: absolute;
+      left: 17rem;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .4s;
+    }
+
+    &-i {
+      position: absolute;
+      left: 25.5rem;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .4s;
+    }
+
+    &-apos {
+      position: absolute;
+      left: 27.5rem;
+      animation: moveLetter .2s linear infinite;
+      animation-delay: .2s;
+    }
+
+    &-m {
+      position: absolute;
+      left: 29rem;
+      animation: moveLetter .2s linear infinite;
+    }
+
+    @keyframes moveLetter {
+      0% {
+        transform: translate(.75%, -.75%);
+      }
+      50% {
+        transform: translate(-.75%, .75%);
+      }
+      100% {
+        transform: translate(.75%, -.75%);
+      }
+    }
+  }
+
+  &__title {
+    width: 100%;
+    font-family: v.$secondary-font;
+    font-size: 9rem;
+    color: v.$light-color;
+    line-height: 13rem;
+  }
+
+  &__job {
+    width: 100%;
+    font-size: 4.75rem;
+    color: v.$first-color;
+
+    &-title {
+      display: flex;
+      align-items: flex-start;
+      overflow: hidden;
+
+      &--underscore {
+        animation: blink 900ms linear infinite;
+
+        @keyframes blink {
+          0%{
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+    }
+
+    &-animation {
+      height: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      color: v.$first-color-light;
+      margin: 0 0 0 1rem;
+      animation: text-animation 20s infinite;
+
+      span {
+        height:2.81rem;
+        display:inline-block;
+        margin-bottom: 2.81rem;
+      }
+
+      @keyframes text-animation {
+        0% {margin-top: 0;}
+        2.5% {margin-top: 0;}
+        5% {margin-top: -5.62rem;}
+        7.5% {margin-top: -5.62rem;}
+        10% {margin-top: -11.24rem;}
+        12.5% {margin-top: -11.24rem;}
+        15% {margin-top: -16.86rem;}
+        17.5% {margin-top: -16.86rem;}
+        20% {margin-top: -22.48rem;}
+        22.5% {margin-top: -22.48rem;}
+        25% {margin-top: -28.1rem;}
+        27.5% {margin-top: -28.1rem;}
+        30% {margin-top: -33.72rem;}
+        32.5% {margin-top: -33.72rem;}
+        35% {margin-top: -39.34rem;}
+        37.5% {margin-top: -39.34rem;}
+        40% {margin-top: -44.96rem;}
+        42.5% {margin-top: -44.96rem;}
+        45% {margin-top: -50.58rem;}
+        47.5% {margin-top: -50.58rem;}
+        50% {margin-top: -50.58rem;}
+        52.5% {margin-top: -50.58rem;}
+        55% {margin-top: -44.96rem;}
+        57.5% {margin-top: -44.96rem;}
+        60% {margin-top: -39.34rem;}
+        62.5% {margin-top: -39.34rem;}
+        65% {margin-top: -33.72rem;}
+        67.5% {margin-top: -33.72rem;}
+        70% {margin-top: -28.1rem;}
+        72.5% {margin-top: -28.1rem;}
+        75% {margin-top: -22.48rem;}
+        77.5% {margin-top: -22.48rem;}
+        80% {margin-top: -16.86rem;}
+        82.5% {margin-top: -16.86rem;}
+        85% {margin-top: -11.24rem;}
+        87.5% {margin-top: -11.24rem;}
+        90% {margin-top: -5.62rem;}
+        92.5% {margin-top: -5.62rem;}
+        95% {margin-top: 0;}
+        97.5% {margin-top: 0;}
+        100% {margin-top: 0;}
+      }
+    }
+  }
+}

@@ -1,358 +1,300 @@
-import afterEffect from '../assets/brands/after-effects.webp'
-import angular from '../assets/brands/angular.webp'
-import apiPlatform from '../assets/brands/api-platform.webp'
-import apple from '../assets/brands/apple.webp'
-import blender from '../assets/brands/blender.webp'
-import composer from '../assets/brands/composer.webp'
-import css from '../assets/brands/css.webp'
-import dataGrip from '../assets/brands/data-grip.webp'
-import debian from '../assets/brands/debian.webp'
-import discord from '../assets/brands/discord.webp'
-import figma from '../assets/brands/figma.webp'
-import git from '../assets/brands/git.webp'
-import github from '../assets/brands/github.webp'
-import googleChrome from '../assets/brands/google-chrome.webp'
-import gsap from '../assets/brands/gsap.webp'
-import heroku from '../assets/brands/heroku.webp'
-import html from '../assets/brands/html.webp'
-import illustrator from '../assets/brands/illustrator.webp'
-import intellij from '../assets/brands/intellij.webp'
-import iterm from '../assets/brands/iterm.webp'
-import javascript from '../assets/brands/javascript.webp'
-import jetbrains from '../assets/brands/jetbrains.webp'
-import logicPro from '../assets/brands/logic-pro.webp'
-import mailchimp from '../assets/brands/mailchimp.webp'
-import mailjet from '../assets/brands/mailjet.webp'
-import mamp from '../assets/brands/mamp.webp'
-import mongodb from '../assets/brands/mongodb.webp'
-import mysql from '../assets/brands/mysql.webp'
-import next from '../assets/brands/next.webp'
-import node from '../assets/brands/node.webp'
-import nodeMailer from '../assets/brands/node-mailer.webp'
-import notion from '../assets/brands/notion.webp'
-import npm from '../assets/brands/npm.webp'
-import parcel from '../assets/brands/parcel.webp'
-import paypal from '../assets/brands/paypal.webp'
-import photoshop from '../assets/brands/photoshop.webp'
-import php from '../assets/brands/php.webp'
-import phpstrom from '../assets/brands/phpstorm.webp'
-import postman from '../assets/brands/postman.webp'
-import premierePro from '../assets/brands/premiere-pro.webp'
-import react from '../assets/brands/react.webp'
-import reactNative from '../assets/brands/react-native.webp'
-import sass from '../assets/brands/sass.webp'
-import sendGrid from '../assets/brands/sendgrid.webp'
-import simulator from '../assets/brands/simulator.webp'
-import slack from '../assets/brands/slack.webp'
-import strapi from '../assets/brands/strapi.webp'
-import stripe from '../assets/brands/stripe.webp'
-import symfony from '../assets/brands/symfony.webp'
-import teams from '../assets/brands/teams.webp'
-import terminal from '../assets/brands/terminal.webp'
-import three from '../assets/brands/three.webp'
-import typescript from '../assets/brands/typescript.webp'
-import vercel from '../assets/brands/vercel.webp'
-import vite from '../assets/brands/vite.webp'
-import vue from '../assets/brands/vue.webp'
-import webpack from '../assets/brands/webpack.webp'
-import webstorm from '../assets/brands/webstorm.webp'
-import xcode from '../assets/brands/xcode.webp'
+import { shuffle } from '../utils'
 
 const brands = [
     {
         id: 1,
         name: 'After Effects',
-        url: afterEffect
+        url: '/brands/after-effect.png'
     },
     {
         id: 2,
         name: 'Angular',
-        url: angular
+        url: '/brands/angular.png'
     },
     {
         id: 3,
         name: 'Api Platform',
-        url: apiPlatform
+        url: '/brands/api-platform.png'
     },
     {
         id: 4,
         name: 'Apple',
-        url: apple
+        url: '/brands/apple.png'
     },
     {
         id: 5,
         name: 'Blender',
-        url: blender
+        url: '/brands/blender.png'
     },
     {
         id: 6,
         name: 'Composer',
-        url: composer
+        url: '/brands/composer.png'
     },
     {
         id: 7,
         name: 'CSS',
-        url: css
+        url: '/brands/css.png'
     },
     {
         id: 8,
         name: 'Data Grip',
-        url: dataGrip
+        url: '/brands/data-grip'
     },
     {
         id: 9,
         name: 'Debian',
-        url: debian
+        url: '/brands/debian.png'
     },
     {
         id: 10,
         name: 'Discord',
-        url: discord
+        url: '/brands/discord.png'
     },
     {
         id: 11,
         name: 'Figma',
-        url: figma
+        url: '/brands/figma.png'
     },
     {
         id: 12,
         name: 'Git',
-        url: git
+        url: '/brands/git.png'
     },
     {
         id: 13,
         name: 'GitHub',
-        url: github
+        url: '/brands/github.png'
     },
     {
         id: 14,
         name: 'Google Chrome',
-        url: googleChrome
+        url: '/brands/google-chrome.png'
     },
     {
         id: 15,
         name: 'GSAP',
-        url: gsap
+        url: '/brands/gsap.png'
     },
     {
         id: 16,
         name: 'Heroku',
-        url: heroku
+        url: '/brands/heroku.png'
     },
     {
         id: 17,
         name: 'HTML',
-        url: html
+        url: '/brands/html.png'
     },
     {
         id: 18,
         name: 'Illustrator',
-        url: illustrator
+        url: '/brands/illustrator.png'
     },
     {
         id: 19,
         name: 'IntelliJ',
-        url: intellij
+        url: '/brands/intellij.png'
     },
     {
         id: 20,
         name: 'Iterm',
-        url: iterm
+        url: '/brands/iterm.png'
     },
     {
         id: 21,
         name: 'JavaScript',
-        url: javascript
+        url: '/brands/javascript.png'
     },
     {
         id: 22,
         name: 'JetBrains',
-        url: jetbrains
+        url: '/brands/jetbrains.png'
     },
     {
         id: 23,
         name: 'Logic Pro',
-        url: logicPro
+        url: '/brands/logic-pro.png'
     },
     {
         id: 24,
         name: 'MailChimp',
-        url: mailchimp
+        url: '/brands/mailchimp.png'
     },
     {
         id: 25,
         name: 'MailJet',
-        url: mailjet
+        url: '/brands/mailjet.png'
     },
     {
         id: 26,
         name: 'Mamp',
-        url: mamp
+        url: '/brands/mamp.png'
     },
     {
         id: 27,
         name: 'MongoDB',
-        url: mongodb
+        url: '/brands/mongodb.png'
     },
     {
         id: 28,
         name: 'MySql',
-        url: mysql
+        url: '/brands/mysql.png'
     },
     {
         id: 29,
         name: 'Next',
-        url: next
+        url: '/brands/next.png'
     },
     {
         id: 30,
         name: 'Node',
-        url: node
+        url: '/brands/node.png'
     },
     {
         id: 31,
         name: 'Node Mailer',
-        url: nodeMailer
+        url: '/brands/node-mailer.png'
     },
     {
         id: 32,
         name: 'Notion',
-        url: notion
+        url: '/brands/notion.png'
     },
     {
         id: 33,
         name: 'NPM',
-        url: npm
+        url: '/brands/npm.png'
     },
     {
         id: 34,
         name: 'Parcel',
-        url: parcel
+        url: '/brands/parcel.png'
     },
     {
         id: 35,
         name: 'Paypal',
-        url: paypal
+        url: '/brands/paypal.png'
     },
     {
         id: 36,
         name: 'Photoshop',
-        url: photoshop
+        url: '/brands/photoshop.png'
     },
     {
         id: 37,
         name: 'PHP',
-        url: php
+        url: '/brands/php.png'
     },
     {
         id: 38,
         name: 'PhpStorm',
-        url: phpstrom
+        url: '/brands/phpstrom.png'
     },
     {
         id: 39,
         name: 'PostMan',
-        url: postman
+        url: '/brands/postman.png'
     },
     {
         id: 40,
         name: 'Premiere Pro',
-        url: premierePro
+        url: '/brands/premiere-pro'
     },
     {
         id: 41,
         name: 'React',
-        url: react
+        url: '/brands/react.png'
     },
     {
         id: 42,
         name: 'React Native',
-        url: reactNative
+        url: '/brands/react-native.png'
     },
     {
         id: 43,
         name: 'SASS',
-        url: sass
+        url: '/brands/sass.png'
     },
     {
         id: 44,
         name: 'Send Grid',
-        url: sendGrid
+        url: '/brands/send-grid'
     },
     {
         id: 45,
         name: 'Simulator',
-        url: simulator
+        url: '/brands/simulator.png'
     },
     {
         id: 46,
         name: 'Slack',
-        url: slack
+        url: '/brands/slack.png'
     },
     {
         id: 47,
         name: 'Strapi',
-        url: strapi
+        url: '/brands/strapi.png'
     },
     {
         id: 48,
         name: 'Stripe',
-        url: stripe
+        url: '/brands/stripe.png'
     },
     {
         id: 49,
         name: 'Symfony',
-        url: symfony
+        url: '/brands/symfony.png'
     },
     {
         id: 50,
         name: 'Teams',
-        url: teams
+        url: '/brands/teams.png'
     },
     {
         id: 51,
         name: 'Terminal',
-        url: terminal
+        url: '/brands/terminal.png'
     },
     {
         id: 52,
         name: 'Three',
-        url: three
+        url: '/brands/three.png'
     },
     {
         id: 53,
         name: 'TypeScript',
-        url: typescript
+        url: '/brands/typescript.png'
     },
     {
         id: 54,
         name: 'Vercel',
-        url: vercel
+        url: '/brands/vercel.png'
     },
     {
         id: 55,
         name: 'Vite',
-        url: vite
+        url: '/brands/vite.png'
     },
     {
         id: 56,
         name: 'Vue',
-        url: vue
+        url: '/brands/vue.png'
     },
     {
         id: 57,
         name: 'WebPack',
-        url: webpack
+        url: '/brands/webpack.png'
     },
     {
         id: 58,
         name: 'WebStorm',
-        url: webstorm
+        url: '/brands/webstorm.png'
     },
     {
         id: 59,
         name: 'Xcode',
-        url: xcode
+        url: '/brands/xcode.png'
     },
 ]
 
@@ -365,6 +307,98 @@ const brands6 = [...brands]
 const brands7 = [...brands]
 const brands8 = [...brands]
 const brands9 = [...brands]
+const brands10 = [...brands]
+const brands11 = [...brands]
+const brands12 = [...brands]
+const brands13= [...brands]
+const brands14 = [...brands]
+const brands15 = [...brands]
+const brands16 = [...brands]
+const brands17 = [...brands]
+const brands18= [...brands]
+const brands19= [...brands]
+const brands20= [...brands]
+const brands21= [...brands]
+const brands22= [...brands]
+const brands23= [...brands]
+const brands24= [...brands]
+const brands25= [...brands]
+const brands26= [...brands]
+const brands27= [...brands]
+const brands28= [...brands]
+const brands29= [...brands]
+const brands30= [...brands]
+const brands31= [...brands]
+const brands32= [...brands]
+const brands33= [...brands]
+const brands34= [...brands]
+const brands35= [...brands]
+const brands36= [...brands]
+const brands37= [...brands]
+const brands38= [...brands]
+const brands39= [...brands]
+const brands40= [...brands]
+const brands41= [...brands]
+const brands42= [...brands]
+const brands43= [...brands]
+const brands44= [...brands]
+const brands45= [...brands]
+const brands46= [...brands]
+const brands47= [...brands]
+const brands48= [...brands]
+const brands49= [...brands]
+const brands50= [...brands]
+
+shuffle(brands1)
+shuffle(brands2)
+shuffle(brands3)
+shuffle(brands4)
+shuffle(brands5)
+shuffle(brands6)
+shuffle(brands7)
+shuffle(brands8)
+shuffle(brands9)
+shuffle(brands10)
+shuffle(brands11)
+shuffle(brands12)
+shuffle(brands13)
+shuffle(brands14)
+shuffle(brands15)
+shuffle(brands16)
+shuffle(brands17)
+shuffle(brands18)
+shuffle(brands19)
+shuffle(brands20)
+shuffle(brands21)
+shuffle(brands22)
+shuffle(brands23)
+shuffle(brands24)
+shuffle(brands25)
+shuffle(brands26)
+shuffle(brands27)
+shuffle(brands28)
+shuffle(brands29)
+shuffle(brands30)
+shuffle(brands31)
+shuffle(brands32)
+shuffle(brands33)
+shuffle(brands34)
+shuffle(brands35)
+shuffle(brands36)
+shuffle(brands37)
+shuffle(brands38)
+shuffle(brands39)
+shuffle(brands40)
+shuffle(brands41)
+shuffle(brands42)
+shuffle(brands43)
+shuffle(brands44)
+shuffle(brands45)
+shuffle(brands46)
+shuffle(brands47)
+shuffle(brands48)
+shuffle(brands49)
+shuffle(brands50)
 
 export const logos = [
     ...brands1,
@@ -375,5 +409,46 @@ export const logos = [
     ...brands6,
     ...brands7,
     ...brands8,
-    ...brands9
+    ...brands9,
+    ...brands10,
+    ...brands11,
+    ...brands12,
+    ...brands13,
+    ...brands14,
+    ...brands15,
+    ...brands16,
+    ...brands17,
+    ...brands18,
+    ...brands19,
+    ...brands20,
+    ...brands21,
+    ...brands22,
+    ...brands23,
+    ...brands24,
+    ...brands25,
+    ...brands26,
+    ...brands27,
+    ...brands28,
+    ...brands29,
+    ...brands30,
+    ...brands31,
+    ...brands32,
+    ...brands33,
+    ...brands34,
+    ...brands35,
+    ...brands36,
+    ...brands37,
+    ...brands38,
+    ...brands39,
+    ...brands40,
+    ...brands41,
+    ...brands42,
+    ...brands43,
+    ...brands44,
+    ...brands45,
+    ...brands46,
+    ...brands47,
+    ...brands48,
+    ...brands49,
+    ...brands50
 ]
