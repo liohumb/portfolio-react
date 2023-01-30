@@ -4,7 +4,7 @@ const brands = [
     {
         id: 1,
         name: 'After Effects',
-        url: '/brands/after-effect.png'
+        url: '/brands/after-effects.png'
     },
     {
         id: 2,
@@ -189,7 +189,7 @@ const brands = [
     {
         id: 38,
         name: 'PhpStorm',
-        url: '/brands/phpstrom.png'
+        url: '/brands/phpstorm.png'
     },
     {
         id: 39,
@@ -199,7 +199,7 @@ const brands = [
     {
         id: 40,
         name: 'Premiere Pro',
-        url: '/brands/premiere-pro'
+        url: '/brands/premiere-pro.png'
     },
     {
         id: 41,
@@ -219,7 +219,7 @@ const brands = [
     {
         id: 44,
         name: 'Send Grid',
-        url: '/brands/send-grid'
+        url: '/brands/sendgrid.png'
     },
     {
         id: 45,

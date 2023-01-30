@@ -5,140 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9abe235c-f22e-4fde-a692-1d693205cf75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/after-effects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/api-platform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/blender.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/composer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/data-grip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/debian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/discord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/figma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/google-chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/gsap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/heroku.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/illustrator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/intellij.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/iterm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/jetbrains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/logic-pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/mailchimp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/mailjet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/mamp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/mongodb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/node-mailer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/node.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/notion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/npm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/parcel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/photoshop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/phpstorm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/postman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/premiere-pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/react-native.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/sass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/sendgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/simulator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/slack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/strapi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/stripe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/symfony.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/teams.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/terminal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/vercel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/vite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/vue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/webpack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/webstorm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/xcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/background/Background.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/background/background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/hero/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/hero/hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/jobs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/after-effects.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/angular.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/api-platform.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/apple.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/blender.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/composer.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/css.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/data-grip.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/debian.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/discord.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/figma.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/git.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/github.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/google-chrome.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/gsap.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/heroku.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/html.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/illustrator.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/intellij.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/iterm.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/javascript.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/jetbrains.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/logic-pro.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/mailchimp.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/mailjet.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/mamp.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/mongodb.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/mysql.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/next.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/node-mailer.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/node.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/notion.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/npm.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/parcel.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/paypal.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/photoshop.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/php.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/phpstorm.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/postman.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/premiere-pro.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/react-native.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/react.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/sass.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/sendgrid.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/simulator.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/slack.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/strapi.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/stripe.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/symfony.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/teams.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/terminal.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/three.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/typescript.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/vercel.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/vite.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/vue.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/webpack.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/webstorm.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/brands/xcode.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/Style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/brands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/brands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +88,8 @@
       <workItem from="1673195868025" duration="3630000" />
       <workItem from="1673203060715" duration="5633000" />
       <workItem from="1673351412643" duration="4156000" />
-      <workItem from="1673416244149" duration="7945000" />
+      <workItem from="1673416244149" duration="8783000" />
+      <workItem from="1675071157976" duration="217000" />
     </task>
     <servers />
   </component>
