@@ -34,6 +34,11 @@ export default function Hero(  ) {
                         </div>
                     </h6>
                 </div>
+                <a href="#about" className="hero__scroll">
+                    <span className="hero__scroll-arrow"></span>
+                    <span className="hero__scroll-arrow"></span>
+                    <span className="hero__scroll-arrow"></span>
+                </a>
             </div>
         </section>
     )

@@ -33,7 +33,7 @@
     &-h {
       position: absolute;
       animation: moveLetter .2s linear infinite;
-      animation-delay: .4s;
+      animation-delay: .9s;
     }
 
     &-e {
@@ -47,20 +47,21 @@
       position: absolute;
       left: 7rem;
       animation: moveLetter .2s linear infinite;
+      animation-delay: .25s;
     }
 
     &-ll {
       position: absolute;
       left: 8.5rem;
       animation: moveLetter .2s linear infinite;
-      animation-delay: .4s;
+      animation-delay: .1s;
     }
 
     &-o {
       position: absolute;
       left: 10rem;
       animation: moveLetter .2s linear infinite;
-      animation-delay: .2s;
+      animation-delay: .9s;
     }
 
     &-virgule {
@@ -80,7 +81,7 @@
       position: absolute;
       left: 25.5rem;
       animation: moveLetter .2s linear infinite;
-      animation-delay: .4s;
+      animation-delay: .9s;
     }
 
     &-apos {
@@ -199,6 +200,50 @@
         95% {margin-top: 0;}
         97.5% {margin-top: 0;}
         100% {margin-top: 0;}
+      }
+    }
+  }
+  
+  &__scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    
+    &-arrow {
+      width: 2rem;
+      height: 2rem;
+      border-right: .25rem solid v.$light-color;
+      border-bottom: .25rem solid v.$light-color;
+      transform: rotate(45deg);
+      animation: arrowAnimation 1s infinite;
+
+      &:nth-child(1) {
+        animation-delay: .1s;
+      }
+
+      &:nth-child(2) {
+        animation-delay: .3s;
+      }
+
+      &:nth-child(3) {
+        animation-delay: .5s;
+      }
+
+      @keyframes arrowAnimation {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: .5;
+        }
+        100% {
+          opacity: 1;
+        }
       }
     }
   }
